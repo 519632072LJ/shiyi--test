@@ -1,0 +1,31 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/home/home",
+    "pages/mine/mine"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#696969",
+    "navigationBarTitleText": "同层代取",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath":   "pages/index/index",
+      "text": "首页",
+      "iconPath": "icon/首页.png",
+      "selectedIconPath": "icon/首页 (1).png"
+    },
+    {
+      "pagePath":   "pages/home/home",
+      "text": "我的",
+      "iconPath": "icon/我的.png",
+      "selectedIconPath": "icon/我的 (1).png"
+    }
+  ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
